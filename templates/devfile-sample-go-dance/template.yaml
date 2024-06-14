@@ -198,8 +198,8 @@ spec:
           argoNS: rhtap
           argoProject: default
           secretRef: ${{ parameters.hostType === 'GitLab' }}
-          gitSecret: gitlab-auth-secret
-          gitSecretKey: password
+          gitSecret: github-auth-secret
+          gitSecretKey: secret
           webhookSecret: pipelines-secret
           webhookSecretKey: webhook.secret
           defaultBranch: main

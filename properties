@@ -4,7 +4,7 @@ export GITLAB__DEFAULT__HOST=gitlab.com
 export QUAY__DEFAULT__HOST=quay.io
 
 # PE can replace these values with own pipeline fork
-export PIPELINE__REPO__URL=https://github.com/redhat-appstudio/tssc-sample-pipelines
+export PIPELINE__REPO__URL=https://github.com/demo-rhtssc/tssc-sample-pipelines
 export PIPELINE__REPO__BRANCH=main
 
 export DEFAULT__DEPLOYMENT__NAMESPACE__PREFIX=rhtap-app
@@ -16,7 +16,7 @@ export ARGOCD__DEFAULT__PROJECT=default
 
 
 # For secret reference in Repositroy CRs
-export GIT__SECRET__DEFAULT__NAME=gitlab-auth-secret
-export GIT__SECRET__DEFAULT__KEY=password
+export GIT__SECRET__DEFAULT__NAME=github-auth-secret
+export GIT__SECRET__DEFAULT__KEY=secret
 export WEBHOOK__SECRET__DEFAULT__NAME=pipelines-secret
 export WEBHOOK__SECRET__DEFAULT__KEY=webhook.secret
